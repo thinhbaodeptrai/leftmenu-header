@@ -1,0 +1,98 @@
+.VSSE-leftmenu-container {
+    width: 22%;
+    background: #1E1E2D;
+    /* min-width: 300px; */
+    max-width: 350px;
+    /* display: none; */
+}
+.VSSE__content {
+    padding: 20px;
+    margin-left: 22%;
+    height: 5000px !important;
+    background-color: #ccc;
+}
+.VSSE__leftmenu-header {
+    align-items: center ;
+    justify-content: space-between;
+    padding: 15px 12px 10px 20px;
+    border: 1px dashed #393945;
+}
+.VSSE__leftmenu-header-button {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.VSSE__leftmenu-options:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+.VSSE__leftmenu-header-icon {
+    width: 35px;
+    height: 35px;
+}
+
+.VSSE__leftmenu-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+    margin-left: 15px;
+}
+.VSSE__leftmenu-icon {
+    width: 30px;
+    font-size: #9D9DA6;
+}
+.VSSE__leftmenu-name-option {
+    color: #9D9DA6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+}
+
+.VSSE__leftmenu-name-option {
+    margin-left: 15px;
+}
+
+.VSSE__leftmenu-btn {
+    padding: 0;
+}
+.w3-button:hover {
+    background-color: rgba(255, 255, 255, 0)!important;
+}
+.VSSE__leftmenu-subnav-text {
+    color: #9D9DA6;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+}
+.w3-bar-block .w3-bar-item {
+    padding: 8px 16px 0px 12px;
+}
+
+.VSSE__leftmenu-item-container {
+    margin-bottom: 10px;
+}
+.VSSE__leftmenu-controls {
+    padding: 20px 18px 50px 20px;
+}
+.side-bar-heading-logo,
+.VSSE__leftmenu-options {
+    height: 40px;
+}
+ 
+
+.VSSE-leftmenu-container::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none; 
+}
+
+/* Table CSS  */

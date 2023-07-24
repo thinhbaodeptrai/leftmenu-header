@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css ">
+    <link rel="stylesheet" href="./assets/css/userlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Quản lí tài khoản</title>
+</head>
+<body>
+
+    <div class="VSSE__main-page ">
+        <div class="VSSE__header ">
+            <div class="VSSE__header-container d-flex align-item-center justify-space-bw">
+                
+                <div class="VSSE__header-container-title d-flex align-item-center">
+                    <svg class="VSSE__header-show-menu-icon" xmlns="http://www.w3.org/2000/svg" width="42" height="43" viewBox="0 0 42 43" fill="none">
+                      <path d="M5.25 32.25H36.75V28.6667H5.25V32.25ZM5.25 23.2917H36.75V19.7083H5.25V23.2917ZM5.25 10.75V14.3333H36.75V10.75H5.25Z" fill="#1E1E2D"/>
+                    </svg>
+                    <h1 class="VSSE__header-title">Quản lí tài khoản</h1>
+                </div>
+                <div class="VSSE__header-infomation d-flex align-item-center">
+                    <div class="VSSE__header-notification d-flex align-item-center">
+                        <svg class="VSSE_header-notification-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M35.0001 11.1094C34.7059 11.2618 34.3632 11.2911 34.0473 11.1909C33.7315 11.0907 33.4683 10.8692 33.3157 10.575C32.1226 8.21799 30.3166 6.22581 28.0876 4.80784C27.9487 4.72023 27.8284 4.60611 27.7336 4.472C27.6388 4.33789 27.5713 4.18643 27.535 4.02625C27.4988 3.86606 27.4944 3.70031 27.5222 3.53844C27.55 3.37657 27.6094 3.22176 27.697 3.08284C27.7846 2.94393 27.8987 2.82363 28.0328 2.72882C28.1669 2.63401 28.3184 2.56655 28.4786 2.53027C28.6388 2.494 28.8045 2.48963 28.9664 2.51742C29.1283 2.54521 29.2831 2.6046 29.422 2.69222C32.0198 4.35556 34.1292 6.67904 35.5345 9.42503C35.6869 9.71928 35.7162 10.062 35.616 10.3778C35.5158 10.6937 35.2942 10.9568 35.0001 11.1094ZM5.5798 11.25C5.8088 11.2499 6.03338 11.1869 6.22902 11.0679C6.42465 10.9489 6.58383 10.7784 6.68917 10.575C7.8823 8.21799 9.68827 6.22581 11.9173 4.80784C12.0562 4.72023 12.1765 4.60611 12.2713 4.472C12.3661 4.33789 12.4336 4.18643 12.4699 4.02625C12.5061 3.86606 12.5105 3.70031 12.4827 3.53844C12.4549 3.37657 12.3955 3.22176 12.3079 3.08284C12.2203 2.94393 12.1062 2.82363 11.9721 2.72882C11.838 2.63401 11.6865 2.56655 11.5263 2.53027C11.3661 2.494 11.2004 2.48963 11.0385 2.51742C10.8766 2.54521 10.7218 2.6046 10.5829 2.69222C7.98512 4.35556 5.8757 6.67904 4.47042 9.42503C4.37173 9.61553 4.32373 9.82823 4.33105 10.0426C4.33836 10.2571 4.40074 10.466 4.51219 10.6493C4.62363 10.8327 4.78038 10.9842 4.96736 11.0894C5.15434 11.1946 5.36525 11.2499 5.5798 11.25ZM34.6579 27.4907C34.8794 27.8704 34.9968 28.3018 34.9983 28.7415C34.9998 29.1811 34.8854 29.6133 34.6665 29.9945C34.4477 30.3758 34.1322 30.6926 33.7518 30.9131C33.3715 31.1335 32.9397 31.2497 32.5001 31.25H26.1251C25.8382 32.6629 25.0717 33.9331 23.9554 34.8455C22.8392 35.7579 21.4418 36.2563 20.0001 36.2563C18.5584 36.2563 17.1611 35.7579 16.0448 34.8455C14.9285 33.9331 14.162 32.6629 13.8751 31.25H7.50011C7.06077 31.2492 6.62941 31.1325 6.2495 30.9119C5.86958 30.6912 5.55452 30.3744 5.33605 29.9932C5.11758 29.612 5.00342 29.18 5.00506 28.7407C5.00671 28.3013 5.1241 27.8702 5.34542 27.4907C6.75324 25.061 7.50011 21.6063 7.50011 17.5C7.50011 14.1848 8.81707 11.0054 11.1613 8.6612C13.5055 6.31699 16.6849 5.00003 20.0001 5.00003C23.3153 5.00003 26.4947 6.31699 28.8389 8.6612C31.1832 11.0054 32.5001 14.1848 32.5001 17.5C32.5001 21.6047 33.247 25.0594 34.6579 27.4907ZM23.5345 31.25H16.4657C16.7247 31.9804 17.2036 32.6125 17.8365 33.0596C18.4694 33.5067 19.2252 33.7468 20.0001 33.7468C20.775 33.7468 21.5309 33.5067 22.1638 33.0596C22.7967 32.6125 23.2755 31.9804 23.5345 31.25Z" fill="#CCCCCC"/>
+                        </svg>
+                    </div>
+                    <div class="VSSE__header-avatar d-flex align-item-center">
+                        <img src="./assets/imgs/avatar.png" alt="" class="VSSE__header-avatar-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="VSSE__body">
+            <div class="VSSE__body-container ">
+                <div class="VSSE__body-content">
+                    <div class="VSSE__body-title">
+                        <h4 class="VSSE__body-title-text">
+                          
+                             <span style=" color: #A09A97;">Trang chủ</span>/ Quản lí tài khoản/ Danh sách tài khoản
+                        </h4>
+                    </div>
+                    <div class="VSSE__body-body">
+                        <div class="VSSE__body-body-title d-flex justify-space-bw align-item-center">
+                            <div class="VSSE__body-search-container ">
+                                <input class="VSSE__body-input" type="text" placeholder="Find something...">
+                                <div class="VSSE__body-search-icon-container d-flex align-item-center">
+                                    <svg class="VSSE__body-search-icon" xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16.5483 9.80256C16.5483 13.5677 13.5072 16.6051 9.77417 16.6051C6.0411 16.6051 3 13.5677 3 9.80256C3 6.0374 6.0411 3 9.77417 3C13.5072 3 16.5483 6.0374 16.5483 9.80256ZM15.0139 18.079C13.4996 19.0453 11.702 19.6051 9.77417 19.6051C4.37604 19.6051 0 15.2164 0 9.80256C0 4.38876 4.37604 0 9.77417 0C15.1723 0 19.5483 4.38876 19.5483 9.80256C19.5483 12.1971 18.6922 14.3912 17.2702 16.0936L23.4844 22.3511L21.3704 24.4797L15.0139 18.079Z" fill="#C5C5C5"/>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="VSSE__body-insert-container">
+                                <a href="" type="button" class="VSSE__body-insert">Thêm mới</a>
+                            </div>
+                        </div>
+                        <div class="VSSE__body-table-container">
+                            <table style="overflow: scroll;">
+                                <tr>
+                                  <th>STT</th>
+                                  <th>Tên đăng nhập</th>
+                                  <th>Họ và tên</th>
+                                  <th>Trạng thái</th>
+                                  <th>Nhóm quyền</th>
+                                  <th>Điện thoại</th>
+                                  <th>Thao tác</th>
+
+                                </tr>
+
+                                <!-- ROW  -->
+                                <tr>
+                                  <td>1</td>
+                                  <td>huent</td>
+                                  <td>Nguyễn Thị Huế</td>
+                                  <td>
+                                    <div class="VSSE__status-container">
+                                        <h4 class="VSSE__status">Hoạt động</h4>
+                                    </div>
+                                  </td>
+                                  <td>
+                                    <div class="VSSE__select-container">
+                                        <select class="VSSE__select-authority" name="cars" id="cars">
+                                            <!-- <optgroup label="Swedish Cars"> -->
+                                              <option value="saab">Quản trị</option>
+                                              <option value="volvo">Kinh doanh</option>
+                                              <option value="saab">Kế toán</option>
+                                              <option value="saab">Nhà hàng</option>
+                                              <option value="volvo">Đại lý</option>
+                                            <!-- </optgroup> -->
+                                        </select>
+                                    
+                                    </div>
+                                  </td>
+                                  <td>0955555555</td>
+                                  <td>
+                                    <div class="VSSE__operate d-flex align-item-center">
+                                        <a href="#" class="VSSE__key VSSE__operate-button">
+                                            <svg class="VSSE__key-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                                <path d="M17 9.55566H9V7.55566C9 6.75566 9.3 6.05566 9.9 5.45566C11.1 4.25566 13 4.25566 14.1 5.45566C14.5 5.85566 14.7 6.35566 14.9 6.85566C15 7.35566 15.6 7.65566 16.1 7.55566C16.6 7.45566 17 6.85566 16.8 6.35566C16.6 5.45566 16.1 4.65566 15.5 4.05566C14.6 3.05566 13.3 2.55566 12 2.55566C9.2 2.55566 7 4.75566 7 7.55566V9.55566C5.3 9.55566 4 10.8557 4 12.5557V19.5557C4 21.2557 5.3 22.5557 7 22.5557H17C18.7 22.5557 20 21.2557 20 19.5557V12.5557C20 10.8557 18.7 9.55566 17 9.55566ZM13 17.5557C13 18.1557 12.6 18.5557 12 18.5557C11.4 18.5557 11 18.1557 11 17.5557V14.5557C11 13.9557 11.4 13.5557 12 13.5557C12.6 13.5557 13 13.9557 13 14.5557V17.5557Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="VSSE__note VSSE__operate-button">
+                                            <svg class="VSSE__note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                                <g clip-path="url(#clip0_24_2681)">
+                                                  <path d="M4 21.0807C3.45 21.0807 2.979 20.885 2.587 20.4937C2.195 20.1023 1.99934 19.6313 2 19.0807V5.08066C2 4.53066 2.196 4.05966 2.588 3.66766C2.98 3.27566 3.45067 3.08 4 3.08066H12.925L10.925 5.08066H4V19.0807H18V12.1307L20 10.1307V19.0807C20 19.6307 19.804 20.1017 19.412 20.4937C19.02 20.8857 18.5493 21.0813 18 21.0807H4ZM15.175 3.65566L16.6 5.05566L10 11.6557V13.0807H11.4L18.025 6.45566L19.45 7.85566L12.25 15.0807H8V10.8307L15.175 3.65566ZM19.45 7.85566L15.175 3.65566L17.675 1.15566C18.075 0.755664 18.5543 0.555664 19.113 0.555664C19.6717 0.555664 20.1423 0.755664 20.525 1.15566L21.925 2.58066C22.3083 2.964 22.5 3.43066 22.5 3.98066C22.5 4.53066 22.3083 4.99733 21.925 5.38066L19.45 7.85566Z" fill="white"/>
+                                                </g>
+                                                <defs>
+                                                  <clipPath id="clip0_24_2681">
+                                                    <rect width="24" height="24" fill="white" transform="translate(0 0.555664)"/>
+                                                  </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                        <a href="#" class="VSSE__delete VSSE__operate-button">
+                                            <svg class="VSSE__delete-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <rect y="0.000244141" width="24" height="24" rx="6" fill="#D9534F"/>
+                                                <path d="M7 21.0002C6.45 21.0002 5.979 20.8042 5.587 20.4122C5.195 20.0202 4.99933 19.5496 5 19.0002V6.00024H4V4.00024H9V3.00024H15V4.00024H20V6.00024H19V19.0002C19 19.5502 18.804 20.0212 18.412 20.4132C18.02 20.8052 17.5493 21.0009 17 21.0002H7ZM9 17.0002H11V8.00024H9V17.0002ZM13 17.0002H15V8.00024H13V17.0002Z" fill="white"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                  </td>
+                                </tr>
+                              <!-- END ROW -->
+                              <!-- ROW  -->
+                              <tr>
+                                <td>2</td>
+                                <td>huent</td>
+                                <td>Nguyễn Thị Huế</td>
+                                <td>
+                                  <div class="VSSE__status-container">
+                                      <h4 class="VSSE__status">Hoạt động</h4>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="VSSE__select-container">
+                                      <select class="VSSE__select-authority" name="cars" id="cars">
+                                          <!-- <optgroup label="Swedish Cars"> -->
+                                            <option value="saab">Quản trị</option>
+                                            <option value="volvo">Kinh doanh</option>
+                                            <option value="saab">Kế toán</option>
+                                            <option value="saab">Nhà hàng</option>
+                                            <option value="volvo">Đại lý</option>
+                                          <!-- </optgroup> -->
+                                      </select>
+                                  
+                                  </div>
+                                </td>
+                                <td>0955555555</td>
+                                <td>
+                                  <div class="VSSE__operate d-flex align-item-center">
+                                      <a href="#" class="VSSE__key VSSE__operate-button">
+                                          <svg class="VSSE__key-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <path d="M17 9.55566H9V7.55566C9 6.75566 9.3 6.05566 9.9 5.45566C11.1 4.25566 13 4.25566 14.1 5.45566C14.5 5.85566 14.7 6.35566 14.9 6.85566C15 7.35566 15.6 7.65566 16.1 7.55566C16.6 7.45566 17 6.85566 16.8 6.35566C16.6 5.45566 16.1 4.65566 15.5 4.05566C14.6 3.05566 13.3 2.55566 12 2.55566C9.2 2.55566 7 4.75566 7 7.55566V9.55566C5.3 9.55566 4 10.8557 4 12.5557V19.5557C4 21.2557 5.3 22.5557 7 22.5557H17C18.7 22.5557 20 21.2557 20 19.5557V12.5557C20 10.8557 18.7 9.55566 17 9.55566ZM13 17.5557C13 18.1557 12.6 18.5557 12 18.5557C11.4 18.5557 11 18.1557 11 17.5557V14.5557C11 13.9557 11.4 13.5557 12 13.5557C12.6 13.5557 13 13.9557 13 14.5557V17.5557Z" fill="white"/>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__note VSSE__operate-button">
+                                          <svg class="VSSE__note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <g clip-path="url(#clip0_24_2681)">
+                                                <path d="M4 21.0807C3.45 21.0807 2.979 20.885 2.587 20.4937C2.195 20.1023 1.99934 19.6313 2 19.0807V5.08066C2 4.53066 2.196 4.05966 2.588 3.66766C2.98 3.27566 3.45067 3.08 4 3.08066H12.925L10.925 5.08066H4V19.0807H18V12.1307L20 10.1307V19.0807C20 19.6307 19.804 20.1017 19.412 20.4937C19.02 20.8857 18.5493 21.0813 18 21.0807H4ZM15.175 3.65566L16.6 5.05566L10 11.6557V13.0807H11.4L18.025 6.45566L19.45 7.85566L12.25 15.0807H8V10.8307L15.175 3.65566ZM19.45 7.85566L15.175 3.65566L17.675 1.15566C18.075 0.755664 18.5543 0.555664 19.113 0.555664C19.6717 0.555664 20.1423 0.755664 20.525 1.15566L21.925 2.58066C22.3083 2.964 22.5 3.43066 22.5 3.98066C22.5 4.53066 22.3083 4.99733 21.925 5.38066L19.45 7.85566Z" fill="white"/>
+                                              </g>
+                                              <defs>
+                                                <clipPath id="clip0_24_2681">
+                                                  <rect width="24" height="24" fill="white" transform="translate(0 0.555664)"/>
+                                                </clipPath>
+                                              </defs>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__delete VSSE__operate-button">
+                                          <svg class="VSSE__delete-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                              <rect y="0.000244141" width="24" height="24" rx="6" fill="#D9534F"/>
+                                              <path d="M7 21.0002C6.45 21.0002 5.979 20.8042 5.587 20.4122C5.195 20.0202 4.99933 19.5496 5 19.0002V6.00024H4V4.00024H9V3.00024H15V4.00024H20V6.00024H19V19.0002C19 19.5502 18.804 20.0212 18.412 20.4132C18.02 20.8052 17.5493 21.0009 17 21.0002H7ZM9 17.0002H11V8.00024H9V17.0002ZM13 17.0002H15V8.00024H13V17.0002Z" fill="white"/>
+                                          </svg>
+                                      </a>
+                                  </div>
+                                </td>
+                              </tr>
+                            <!-- END ROW -->
+                            <!-- ROW  -->
+                            <tr>
+                                <td>3</td>
+                                <td>huent</td>
+                                <td>Nguyễn Thị Huế</td>
+                                <td>
+                                  <div class="VSSE__status-container">
+                                      <h4 class="VSSE__status VSSE__status-off">Xóa</h4>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="VSSE__select-container">
+                                      <select class="VSSE__select-authority" name="cars" id="cars">
+                                          <!-- <optgroup label="Swedish Cars"> -->
+                                            <option value="saab">Quản trị</option>
+                                            <option value="volvo">Kinh doanh</option>
+                                            <option value="saab">Kế toán</option>
+                                            <option value="saab">Nhà hàng</option>
+                                            <option value="volvo">Đại lý</option>
+                                          <!-- </optgroup> -->
+                                      </select>
+                                  
+                                  </div>
+                                </td>
+                                <td>0955555555</td>
+                                <td>
+                                  <div class="VSSE__operate d-flex align-item-center">
+                                      <a href="#" class="VSSE__key VSSE__operate-button">
+                                          <svg class="VSSE__key-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <path d="M17 9.55566H9V7.55566C9 6.75566 9.3 6.05566 9.9 5.45566C11.1 4.25566 13 4.25566 14.1 5.45566C14.5 5.85566 14.7 6.35566 14.9 6.85566C15 7.35566 15.6 7.65566 16.1 7.55566C16.6 7.45566 17 6.85566 16.8 6.35566C16.6 5.45566 16.1 4.65566 15.5 4.05566C14.6 3.05566 13.3 2.55566 12 2.55566C9.2 2.55566 7 4.75566 7 7.55566V9.55566C5.3 9.55566 4 10.8557 4 12.5557V19.5557C4 21.2557 5.3 22.5557 7 22.5557H17C18.7 22.5557 20 21.2557 20 19.5557V12.5557C20 10.8557 18.7 9.55566 17 9.55566ZM13 17.5557C13 18.1557 12.6 18.5557 12 18.5557C11.4 18.5557 11 18.1557 11 17.5557V14.5557C11 13.9557 11.4 13.5557 12 13.5557C12.6 13.5557 13 13.9557 13 14.5557V17.5557Z" fill="white"/>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__note VSSE__operate-button">
+                                          <svg class="VSSE__note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <g clip-path="url(#clip0_24_2681)">
+                                                <path d="M4 21.0807C3.45 21.0807 2.979 20.885 2.587 20.4937C2.195 20.1023 1.99934 19.6313 2 19.0807V5.08066C2 4.53066 2.196 4.05966 2.588 3.66766C2.98 3.27566 3.45067 3.08 4 3.08066H12.925L10.925 5.08066H4V19.0807H18V12.1307L20 10.1307V19.0807C20 19.6307 19.804 20.1017 19.412 20.4937C19.02 20.8857 18.5493 21.0813 18 21.0807H4ZM15.175 3.65566L16.6 5.05566L10 11.6557V13.0807H11.4L18.025 6.45566L19.45 7.85566L12.25 15.0807H8V10.8307L15.175 3.65566ZM19.45 7.85566L15.175 3.65566L17.675 1.15566C18.075 0.755664 18.5543 0.555664 19.113 0.555664C19.6717 0.555664 20.1423 0.755664 20.525 1.15566L21.925 2.58066C22.3083 2.964 22.5 3.43066 22.5 3.98066C22.5 4.53066 22.3083 4.99733 21.925 5.38066L19.45 7.85566Z" fill="white"/>
+                                              </g>
+                                              <defs>
+                                                <clipPath id="clip0_24_2681">
+                                                  <rect width="24" height="24" fill="white" transform="translate(0 0.555664)"/>
+                                                </clipPath>
+                                              </defs>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__rotate VSSE__operate-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                            <g clip-path="url(#clip0_24_2731)">
+                                              <path d="M1.4981 12.6375C1.4881 11.3705 2.8451 10.6505 3.8771 11.2315L3.9901 11.3015L6.6681 13.1055C8.0921 14.0655 7.2061 16.2515 5.5681 16.0205L5.4311 15.9955L5.3221 15.9715C5.93702 17.1719 6.86412 18.1844 8.00586 18.9025C9.1476 19.6205 10.4618 20.0176 11.8101 20.0519C13.1584 20.0862 14.4911 19.7564 15.6679 19.0973C16.8446 18.4382 17.822 17.4741 18.4971 16.3065C18.5955 16.1358 18.7265 15.9861 18.8827 15.866C19.0389 15.7459 19.2172 15.6578 19.4075 15.6066C19.5978 15.5554 19.7962 15.5423 19.9916 15.5678C20.187 15.5933 20.3754 15.6571 20.5461 15.7555C20.7168 15.8538 20.8665 15.9849 20.9866 16.1411C21.1067 16.2973 21.1948 16.4756 21.246 16.6659C21.2971 16.8561 21.3103 17.0546 21.2848 17.25C21.2592 17.4453 21.1955 17.6338 21.0971 17.8045C18.7801 21.8245 13.9781 23.9565 9.2821 22.6975C7.06294 22.1028 5.09998 20.7969 3.69403 18.9798C2.28808 17.1628 1.5167 14.9349 1.4981 12.6375ZM2.9041 7.30747C5.2201 3.28647 10.0221 1.15547 14.7181 2.41247C16.9373 3.00716 18.9002 4.31308 20.3062 6.13012C21.7121 7.94717 22.4835 10.1751 22.5021 12.4725C22.5121 13.7395 21.1551 14.4595 20.1231 13.8795L20.0101 13.8095L17.3321 12.0045C15.9081 11.0455 16.7941 8.85947 18.4311 9.09047L18.5691 9.11547L18.6771 9.13847C18.062 7.93814 17.1347 6.92578 15.9929 6.2079C14.8511 5.49002 13.5368 5.09316 12.1885 5.05909C10.8402 5.02501 9.50758 5.35496 8.33093 6.01424C7.15427 6.67352 6.17706 7.63774 5.5021 8.80547C5.40669 8.98164 5.27695 9.13691 5.12054 9.26211C4.96414 9.38732 4.78423 9.47992 4.59145 9.53446C4.39867 9.58899 4.19692 9.60436 3.9981 9.57964C3.79928 9.55493 3.60743 9.49064 3.43387 9.39056C3.26031 9.29049 3.10855 9.15666 2.98756 8.99697C2.86656 8.83728 2.77879 8.65497 2.72941 8.46081C2.68003 8.26664 2.67005 8.06455 2.70005 7.86646C2.73005 7.66837 2.79944 7.4783 2.9041 7.30747Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_24_2731">
+                                                <rect width="24" height="24" fill="white" transform="translate(0 0.55542)"/>
+                                              </clipPath>
+                                            </defs>
+                                          </svg>
+                                      </a>
+                                  </div>
+                                </td>
+                              </tr>
+                            <!-- END ROW -->
+                            <!-- ROW  -->
+                            <tr>
+                                <td>4</td>
+                                <td>huent</td>
+                                <td>Nguyễn Thị Huế</td>
+                                <td>
+                                  <div class="VSSE__status-container">
+                                      <h4 class="VSSE__status VSSE__status-off">Xóa</h4>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="VSSE__select-container">
+                                      <select class="VSSE__select-authority" name="cars" id="cars">
+                                          <!-- <optgroup label="Swedish Cars"> -->
+                                            <option value="saab">Quản trị</option>
+                                            <option value="volvo">Kinh doanh</option>
+                                            <option value="saab">Kế toán</option>
+                                            <option value="saab">Nhà hàng</option>
+                                            <option value="volvo">Đại lý</option>
+                                          <!-- </optgroup> -->
+                                      </select>
+                                  
+                                  </div>
+                                </td>
+                                <td>0955555555</td>
+                                <td>
+                                  <div class="VSSE__operate d-flex align-item-center">
+                                      <a href="#" class="VSSE__key VSSE__operate-button">
+                                          <svg class="VSSE__key-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <path d="M17 9.55566H9V7.55566C9 6.75566 9.3 6.05566 9.9 5.45566C11.1 4.25566 13 4.25566 14.1 5.45566C14.5 5.85566 14.7 6.35566 14.9 6.85566C15 7.35566 15.6 7.65566 16.1 7.55566C16.6 7.45566 17 6.85566 16.8 6.35566C16.6 5.45566 16.1 4.65566 15.5 4.05566C14.6 3.05566 13.3 2.55566 12 2.55566C9.2 2.55566 7 4.75566 7 7.55566V9.55566C5.3 9.55566 4 10.8557 4 12.5557V19.5557C4 21.2557 5.3 22.5557 7 22.5557H17C18.7 22.5557 20 21.2557 20 19.5557V12.5557C20 10.8557 18.7 9.55566 17 9.55566ZM13 17.5557C13 18.1557 12.6 18.5557 12 18.5557C11.4 18.5557 11 18.1557 11 17.5557V14.5557C11 13.9557 11.4 13.5557 12 13.5557C12.6 13.5557 13 13.9557 13 14.5557V17.5557Z" fill="white"/>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__note VSSE__operate-button">
+                                          <svg class="VSSE__note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <g clip-path="url(#clip0_24_2681)">
+                                                <path d="M4 21.0807C3.45 21.0807 2.979 20.885 2.587 20.4937C2.195 20.1023 1.99934 19.6313 2 19.0807V5.08066C2 4.53066 2.196 4.05966 2.588 3.66766C2.98 3.27566 3.45067 3.08 4 3.08066H12.925L10.925 5.08066H4V19.0807H18V12.1307L20 10.1307V19.0807C20 19.6307 19.804 20.1017 19.412 20.4937C19.02 20.8857 18.5493 21.0813 18 21.0807H4ZM15.175 3.65566L16.6 5.05566L10 11.6557V13.0807H11.4L18.025 6.45566L19.45 7.85566L12.25 15.0807H8V10.8307L15.175 3.65566ZM19.45 7.85566L15.175 3.65566L17.675 1.15566C18.075 0.755664 18.5543 0.555664 19.113 0.555664C19.6717 0.555664 20.1423 0.755664 20.525 1.15566L21.925 2.58066C22.3083 2.964 22.5 3.43066 22.5 3.98066C22.5 4.53066 22.3083 4.99733 21.925 5.38066L19.45 7.85566Z" fill="white"/>
+                                              </g>
+                                              <defs>
+                                                <clipPath id="clip0_24_2681">
+                                                  <rect width="24" height="24" fill="white" transform="translate(0 0.555664)"/>
+                                                </clipPath>
+                                              </defs>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__rotate VSSE__operate-button">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                            <g clip-path="url(#clip0_24_2731)">
+                                              <path d="M1.4981 12.6375C1.4881 11.3705 2.8451 10.6505 3.8771 11.2315L3.9901 11.3015L6.6681 13.1055C8.0921 14.0655 7.2061 16.2515 5.5681 16.0205L5.4311 15.9955L5.3221 15.9715C5.93702 17.1719 6.86412 18.1844 8.00586 18.9025C9.1476 19.6205 10.4618 20.0176 11.8101 20.0519C13.1584 20.0862 14.4911 19.7564 15.6679 19.0973C16.8446 18.4382 17.822 17.4741 18.4971 16.3065C18.5955 16.1358 18.7265 15.9861 18.8827 15.866C19.0389 15.7459 19.2172 15.6578 19.4075 15.6066C19.5978 15.5554 19.7962 15.5423 19.9916 15.5678C20.187 15.5933 20.3754 15.6571 20.5461 15.7555C20.7168 15.8538 20.8665 15.9849 20.9866 16.1411C21.1067 16.2973 21.1948 16.4756 21.246 16.6659C21.2971 16.8561 21.3103 17.0546 21.2848 17.25C21.2592 17.4453 21.1955 17.6338 21.0971 17.8045C18.7801 21.8245 13.9781 23.9565 9.2821 22.6975C7.06294 22.1028 5.09998 20.7969 3.69403 18.9798C2.28808 17.1628 1.5167 14.9349 1.4981 12.6375ZM2.9041 7.30747C5.2201 3.28647 10.0221 1.15547 14.7181 2.41247C16.9373 3.00716 18.9002 4.31308 20.3062 6.13012C21.7121 7.94717 22.4835 10.1751 22.5021 12.4725C22.5121 13.7395 21.1551 14.4595 20.1231 13.8795L20.0101 13.8095L17.3321 12.0045C15.9081 11.0455 16.7941 8.85947 18.4311 9.09047L18.5691 9.11547L18.6771 9.13847C18.062 7.93814 17.1347 6.92578 15.9929 6.2079C14.8511 5.49002 13.5368 5.09316 12.1885 5.05909C10.8402 5.02501 9.50758 5.35496 8.33093 6.01424C7.15427 6.67352 6.17706 7.63774 5.5021 8.80547C5.40669 8.98164 5.27695 9.13691 5.12054 9.26211C4.96414 9.38732 4.78423 9.47992 4.59145 9.53446C4.39867 9.58899 4.19692 9.60436 3.9981 9.57964C3.79928 9.55493 3.60743 9.49064 3.43387 9.39056C3.26031 9.29049 3.10855 9.15666 2.98756 8.99697C2.86656 8.83728 2.77879 8.65497 2.72941 8.46081C2.68003 8.26664 2.67005 8.06455 2.70005 7.86646C2.73005 7.66837 2.79944 7.4783 2.9041 7.30747Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_24_2731">
+                                                <rect width="24" height="24" fill="white" transform="translate(0 0.55542)"/>
+                                              </clipPath>
+                                            </defs>
+                                          </svg>
+                                      </a>
+                                  </div>
+                                </td>
+                              </tr>
+                            <!-- END ROW -->
+                            <!-- ROW  -->
+                            <tr>
+                                <td>5</td>
+                                <td>huent</td>
+                                <td>Nguyễn Thị Huế</td>
+                                <td>
+                                  <div class="VSSE__status-container">
+                                      <h4 class="VSSE__status">Hoạt động</h4>
+                                  </div>
+                                </td>
+                                <td>
+                                  <div class="VSSE__select-container">
+                                      <select class="VSSE__select-authority" name="cars" id="cars">
+                                          <!-- <optgroup label="Swedish Cars"> -->
+                                            <option value="saab">Quản trị</option>
+                                            <option value="volvo">Kinh doanh</option>
+                                            <option value="saab">Kế toán</option>
+                                            <option value="saab">Nhà hàng</option>
+                                            <option value="volvo">Đại lý</option>
+                                          <!-- </optgroup> -->
+                                      </select>
+                                  
+                                  </div>
+                                </td>
+                                <td>0955555555</td>
+                                <td>
+                                  <div class="VSSE__operate d-flex align-item-center">
+                                      <a href="#" class="VSSE__key VSSE__operate-button">
+                                          <svg class="VSSE__key-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <path d="M17 9.55566H9V7.55566C9 6.75566 9.3 6.05566 9.9 5.45566C11.1 4.25566 13 4.25566 14.1 5.45566C14.5 5.85566 14.7 6.35566 14.9 6.85566C15 7.35566 15.6 7.65566 16.1 7.55566C16.6 7.45566 17 6.85566 16.8 6.35566C16.6 5.45566 16.1 4.65566 15.5 4.05566C14.6 3.05566 13.3 2.55566 12 2.55566C9.2 2.55566 7 4.75566 7 7.55566V9.55566C5.3 9.55566 4 10.8557 4 12.5557V19.5557C4 21.2557 5.3 22.5557 7 22.5557H17C18.7 22.5557 20 21.2557 20 19.5557V12.5557C20 10.8557 18.7 9.55566 17 9.55566ZM13 17.5557C13 18.1557 12.6 18.5557 12 18.5557C11.4 18.5557 11 18.1557 11 17.5557V14.5557C11 13.9557 11.4 13.5557 12 13.5557C12.6 13.5557 13 13.9557 13 14.5557V17.5557Z" fill="white"/>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__note VSSE__operate-button">
+                                          <svg class="VSSE__note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                              <g clip-path="url(#clip0_24_2681)">
+                                                <path d="M4 21.0807C3.45 21.0807 2.979 20.885 2.587 20.4937C2.195 20.1023 1.99934 19.6313 2 19.0807V5.08066C2 4.53066 2.196 4.05966 2.588 3.66766C2.98 3.27566 3.45067 3.08 4 3.08066H12.925L10.925 5.08066H4V19.0807H18V12.1307L20 10.1307V19.0807C20 19.6307 19.804 20.1017 19.412 20.4937C19.02 20.8857 18.5493 21.0813 18 21.0807H4ZM15.175 3.65566L16.6 5.05566L10 11.6557V13.0807H11.4L18.025 6.45566L19.45 7.85566L12.25 15.0807H8V10.8307L15.175 3.65566ZM19.45 7.85566L15.175 3.65566L17.675 1.15566C18.075 0.755664 18.5543 0.555664 19.113 0.555664C19.6717 0.555664 20.1423 0.755664 20.525 1.15566L21.925 2.58066C22.3083 2.964 22.5 3.43066 22.5 3.98066C22.5 4.53066 22.3083 4.99733 21.925 5.38066L19.45 7.85566Z" fill="white"/>
+                                              </g>
+                                              <defs>
+                                                <clipPath id="clip0_24_2681">
+                                                  <rect width="24" height="24" fill="white" transform="translate(0 0.555664)"/>
+                                                </clipPath>
+                                              </defs>
+                                          </svg>
+                                      </a>
+                                      <a href="#" class="VSSE__delete VSSE__operate-button">
+                                          <svg class="VSSE__delete-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                              <rect y="0.000244141" width="24" height="24" rx="6" fill="#D9534F"/>
+                                              <path d="M7 21.0002C6.45 21.0002 5.979 20.8042 5.587 20.4122C5.195 20.0202 4.99933 19.5496 5 19.0002V6.00024H4V4.00024H9V3.00024H15V4.00024H20V6.00024H19V19.0002C19 19.5502 18.804 20.0212 18.412 20.4132C18.02 20.8052 17.5493 21.0009 17 21.0002H7ZM9 17.0002H11V8.00024H9V17.0002ZM13 17.0002H15V8.00024H13V17.0002Z" fill="white"/>
+                                          </svg>
+                                      </a>
+                                  </div>
+                                </td>
+                              </tr>
+                            <!-- END ROW -->
+                            <!-- ROW  -->
+                            <tr>
+                              <td>5</td>
+                              <td>huent</td>
+                              <td>Nguyễn Thị Huế</td>
+                              <td>
+                                <div class="VSSE__status-container">
+                                    <h4 class="VSSE__status">Hoạt động</h4>
+                                </div>
+                              </td>
+                              <td>
+                                <div class="VSSE__select-container">
+                                    <select class="VSSE__select-authority" name="cars" id="cars">
+                                        <!-- <optgroup label="Swedish Cars"> -->
+                                          <option value="saab">Quản trị</option>
+                                          <option value="volvo">Kinh doanh</option>
+                                          <option value="saab">Kế toán</option>
+                                          <option value="saab">Nhà hàng</option>
+                                          <option value="volvo">Đại lý</option>
+                                        <!-- </optgroup> -->
+                                    </select>
+                                
+                                </div>
+                              </td>
+                              <td>0955555555</td>
+                              <td>
+                                <div class="VSSE__operate d-flex align-item-center">
+                                    <a href="#" class="VSSE__key VSSE__operate-button">
+                                        <svg class="VSSE__key-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                            <path d="M17 9.55566H9V7.55566C9 6.75566 9.3 6.05566 9.9 5.45566C11.1 4.25566 13 4.25566 14.1 5.45566C14.5 5.85566 14.7 6.35566 14.9 6.85566C15 7.35566 15.6 7.65566 16.1 7.55566C16.6 7.45566 17 6.85566 16.8 6.35566C16.6 5.45566 16.1 4.65566 15.5 4.05566C14.6 3.05566 13.3 2.55566 12 2.55566C9.2 2.55566 7 4.75566 7 7.55566V9.55566C5.3 9.55566 4 10.8557 4 12.5557V19.5557C4 21.2557 5.3 22.5557 7 22.5557H17C18.7 22.5557 20 21.2557 20 19.5557V12.5557C20 10.8557 18.7 9.55566 17 9.55566ZM13 17.5557C13 18.1557 12.6 18.5557 12 18.5557C11.4 18.5557 11 18.1557 11 17.5557V14.5557C11 13.9557 11.4 13.5557 12 13.5557C12.6 13.5557 13 13.9557 13 14.5557V17.5557Z" fill="white"/>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="VSSE__note VSSE__operate-button">
+                                        <svg class="VSSE__note-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                                            <g clip-path="url(#clip0_24_2681)">
+                                              <path d="M4 21.0807C3.45 21.0807 2.979 20.885 2.587 20.4937C2.195 20.1023 1.99934 19.6313 2 19.0807V5.08066C2 4.53066 2.196 4.05966 2.588 3.66766C2.98 3.27566 3.45067 3.08 4 3.08066H12.925L10.925 5.08066H4V19.0807H18V12.1307L20 10.1307V19.0807C20 19.6307 19.804 20.1017 19.412 20.4937C19.02 20.8857 18.5493 21.0813 18 21.0807H4ZM15.175 3.65566L16.6 5.05566L10 11.6557V13.0807H11.4L18.025 6.45566L19.45 7.85566L12.25 15.0807H8V10.8307L15.175 3.65566ZM19.45 7.85566L15.175 3.65566L17.675 1.15566C18.075 0.755664 18.5543 0.555664 19.113 0.555664C19.6717 0.555664 20.1423 0.755664 20.525 1.15566L21.925 2.58066C22.3083 2.964 22.5 3.43066 22.5 3.98066C22.5 4.53066 22.3083 4.99733 21.925 5.38066L19.45 7.85566Z" fill="white"/>
+                                            </g>
+                                            <defs>
+                                              <clipPath id="clip0_24_2681">
+                                                <rect width="24" height="24" fill="white" transform="translate(0 0.555664)"/>
+                                              </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                    <a href="#" class="VSSE__delete VSSE__operate-button">
+                                        <svg class="VSSE__delete-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <rect y="0.000244141" width="24" height="24" rx="6" fill="#D9534F"/>
+                                            <path d="M7 21.0002C6.45 21.0002 5.979 20.8042 5.587 20.4122C5.195 20.0202 4.99933 19.5496 5 19.0002V6.00024H4V4.00024H9V3.00024H15V4.00024H20V6.00024H19V19.0002C19 19.5502 18.804 20.0212 18.412 20.4132C18.02 20.8052 17.5493 21.0009 17 21.0002H7ZM9 17.0002H11V8.00024H9V17.0002ZM13 17.0002H15V8.00024H13V17.0002Z" fill="white"/>
+                                        </svg>
+                                    </a>
+                                </div>
+                              </td>
+                            </tr>
+                          <!-- END ROW -->
+                                     
+                          </table>
+                        </div>
+                        <div class="VSSE__body-footer">
+                            <div class="VSSE__next-page-container d-flex align-item-center">
+                                <div class="VSSE-number-of-acc d-flex align-item-center">
+                                    <p class="VSSE-number-of-acc-text">
+                                        Hiển thị
+                                    </p>
+                                    <div class="VSSE__select-num-acc-container">
+                                        <select class="VSSE__select-number-of-acc" name="cars" id="cars">
+                                            <!-- <optgroup label="Swedish Cars"> -->
+                                              <option value="saab">1</option>
+                                              <option value="volvo">2</option>
+                                              <option value="saab">3</option>
+                                              <option value="saab">4</option>
+                                              <option value="volvo">5</option>
+                                            <!-- </optgroup> -->
+                                        </select>
+                                    
+                                    </div>
+                                </div>
+                                <div class="VSSE-page-number">
+                                    <span>1-5</span>
+                                    <span>of</span>
+                                    <span>19</span>
+                                </div>
+                                <div class="VSSE-next-page d-flex align-item-center">
+                                    <div class="VSSE-top-page VSSE-next-page-item ">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                            <path d="M3.50008 2.5C3.3572 2.50002 3.2193 2.55247 3.11253 2.64742C3.00576 2.74236 2.93755 2.87319 2.92083 3.01508L2.91675 3.08333V12.4167C2.91691 12.5653 2.97384 12.7084 3.07591 12.8165C3.17797 12.9246 3.31747 12.9896 3.46589 12.9984C3.61432 13.0071 3.76047 12.9588 3.87448 12.8633C3.9885 12.7679 4.06177 12.6326 4.07933 12.4849L4.08341 12.4167V3.08333C4.08341 2.92862 4.02196 2.78025 3.91256 2.67085C3.80316 2.56146 3.65479 2.5 3.50008 2.5ZM10.9125 2.67092C10.8121 2.57048 10.6784 2.51015 10.5366 2.50123C10.3949 2.49232 10.2547 2.53544 10.1425 2.6225L10.0877 2.67092L5.421 7.33758C5.32056 7.43803 5.26023 7.57167 5.25131 7.71344C5.2424 7.8552 5.28552 7.99535 5.37258 8.10758L5.421 8.16242L10.0877 12.8291C10.1926 12.9337 10.3335 12.9944 10.4816 12.999C10.6298 13.0035 10.7741 12.9515 10.8852 12.8534C10.9964 12.7554 11.0661 12.6188 11.0801 12.4712C11.0942 12.3237 11.0516 12.1763 10.9609 12.0591L10.9125 12.0043L6.65825 7.75L10.9125 3.49575C11.0219 3.38636 11.0833 3.23801 11.0833 3.08333C11.0833 2.92865 11.0219 2.78031 10.9125 2.67092Z" fill="#111111"/>
+                                        </svg>
+                                    </div>
+                                    <div class="VSSE-back VSSE-next-page-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                                            <path d="M10.06 12.75L11 11.81L7.94667 8.75L11 5.69L10.06 4.75L6.06 8.75L10.06 12.75Z" fill="black"/>
+                                          /svg>
+                                    </div>
+                                    <div class="VSSE-up VSSE-next-page-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                                            <path d="M6.94 4.75L6 5.69L9.05333 8.75L6 11.81L6.94 12.75L10.94 8.75L6.94 4.75Z" fill="black"/>
+                                        </svg>
+                                    </div>
+                                    <div class="VSSE-end-page VSSE-next-page-item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="15" viewBox="0 0 14 15" fill="none">
+                                            <path d="M3.08709 4.07959C3.03285 4.02535 2.98983 3.96097 2.96048 3.8901C2.93112 3.81924 2.91602 3.74329 2.91602 3.66659C2.91602 3.58989 2.93112 3.51394 2.96048 3.44308C2.98983 3.37221 3.03285 3.30783 3.08709 3.25359C3.14132 3.19935 3.20571 3.15633 3.27657 3.12698C3.34743 3.09763 3.42338 3.08252 3.50009 3.08252C3.57679 3.08252 3.65274 3.09763 3.7236 3.12698C3.79446 3.15633 3.85885 3.19935 3.91309 3.25359L7.99642 7.33692C8.05074 7.39111 8.09384 7.45548 8.12325 7.52635C8.15266 7.59722 8.1678 7.67319 8.1678 7.74992C8.1678 7.82665 8.15266 7.90263 8.12325 7.9735C8.09384 8.04436 8.05074 8.10874 7.99642 8.16292L3.91309 12.2463C3.85885 12.3005 3.79446 12.3435 3.7236 12.3729C3.65274 12.4022 3.57679 12.4173 3.50009 12.4173C3.42338 12.4173 3.34743 12.4022 3.27657 12.3729C3.20571 12.3435 3.14132 12.3005 3.08709 12.2463C3.03285 12.192 2.98983 12.1276 2.96048 12.0568C2.93112 11.9859 2.91602 11.91 2.91602 11.8333C2.91602 11.7566 2.93112 11.6806 2.96048 11.6097C2.98983 11.5389 3.03285 11.4745 3.08709 11.4203L6.75859 7.74992L3.08709 4.07959ZM11.6668 3.66659C11.6668 3.51188 11.6053 3.36351 11.4959 3.25411C11.3865 3.14471 11.2381 3.08326 11.0834 3.08326C10.9287 3.08326 10.7803 3.14471 10.6709 3.25411C10.5615 3.36351 10.5001 3.51188 10.5001 3.66659V11.8333C10.5001 11.988 10.5615 12.1363 10.6709 12.2457C10.7803 12.3551 10.9287 12.4166 11.0834 12.4166C11.2381 12.4166 11.3865 12.3551 11.4959 12.2457C11.6053 12.1363 11.6668 11.988 11.6668 11.8333V3.66659Z" fill="#111111"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="VSSE__modal">
+        <div class="VSSE__modal-overlay">
+
+        </div>
+        <div class="VSSE__modal-body">
+            <div class="VSSE__modal-body-header">
+                <h3 class="VSSE__modal-body-header-title">THÊM / SỬA TÀI KHOẢN</h3>
+            </div>
+            <div class="VSSE__modal-body-form">
+                <form action="#">
+                    <div class="VSSE__modal-form-group">
+                        <h5 class="VSSE__modal-form-title">HỌ VÀ TÊN<span style="color: #D9534F;"> *</span></h5>
+                        <input type="text" class="VSSE__modal-form-input" placeholder="Nhập họ tên">
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">TÊN ĐĂNG NHẬP<span style="color: #D9534F;"> *</span></h5>
+                      <input type="text" class="VSSE__modal-form-input" placeholder="Nhập tên đăng nhập">
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">MẬT KHẨU<span style="color: #D9534F;"> *</span></h5>
+                      <input type="text" class="VSSE__modal-form-input" placeholder="Nhập mật khẩu">
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">EMAIL<span style="color: #D9534F;"> *</span></h5>
+                      <input type="text" class="VSSE__modal-form-input" placeholder="Nhập email">
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">SỐ ĐIỆN THOẠI<span style="color: #D9534F;"> *</span></h5>
+                      <input type="text" class="VSSE__modal-form-input" placeholder="Nhập số điện thoại">
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">BỘ PHẬN<span style="color: #D9534F;"> *</span></h5>
+                      <select class="" name="cars" id="cars">
+                        <!-- <optgroup label="Swedish Cars"> -->
+                          <option value="saab">Quản trị</option>
+                          <option value="volvo">Kinh doanh</option>
+                          <option value="saab">Kế toán</option>
+                          <option value="saab">Nhà hàng</option>
+                          <option value="volvo">Đại lý</option>
+                        <!-- </optgroup> -->
+                      </select>
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">NHÓM QUYỀN</h5>
+                      <select class="" name="cars" id="cars">
+                        <!-- <optgroup label="Swedish Cars"> -->
+                          <option value="saab">Quản trị</option>
+                          <option value="volvo">Kinh doanh</option>
+                          <option value="saab">Kế toán</option>
+                          <option value="saab">Nhà hàng</option>
+                          <option value="volvo">Đại lý</option>
+                        <!-- </optgroup> -->
+                      </select>
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">TRẠNG THÁI<span style="color: #D9534F;"> *</span></h5>
+                      <select class="" name="cars" id="cars">
+                        <!-- <optgroup label="Swedish Cars"> -->
+                          <option value="saab">Quản trị</option>
+                          <option value="volvo">Kinh doanh</option>
+                          <option value="saab">Kế toán</option>
+                          <option value="saab">Nhà hàng</option>
+                          <option value="volvo">Đại lý</option>
+                        <!-- </optgroup> -->
+                      </select>
+                    </div>
+                    <div class="VSSE__modal-form-group">
+                      <h5 class="VSSE__modal-form-title">GHI CHÚ</h5>
+                      <textarea class="VSSE__modal-form-area" name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

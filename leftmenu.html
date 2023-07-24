@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/leftmenu.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<body>
+
+    <div class="d-flex justify-space-bw width-100vw">
+        <div  id="leftmenubar" class="w3-sidebar w3-bar-block  w3-card VSSE-leftmenu-container">
+            <!-- Header leftmenu  -->
+            <div class="VSSE__leftmenu-header d-flex">
+                <div class="d-flex align-item-center">
+                    <div class="VSSE__leftmenu-logo">
+                        <svg class="VSSE__leftmenu-header-icon" xmlns="http://www.w3.org/2000/svg" width="50" height="43" viewBox="0 0 50 43" fill="none">
+                            <path d="M40.1236 15.2065C39.9032 14.6887 39.5035 14.2415 38.9783 13.9252C38.4532 13.6089 37.8279 13.4387 37.1868 13.4375H33.3549L31.7924 5.375H21.593L23.1555 13.4375H19.2924L17.7299 5.375H7.53047L9.09297 13.4375H4.6875V20.8281H1.5625V37.625H43.3327L48.4375 23.7227V20.8281H42.5007L40.1236 15.2065ZM29.1451 8.0625L30.1868 13.4375H26.3236L25.282 8.0625H29.1451ZM15.0826 8.0625L16.1243 13.4375H12.2611L11.2195 8.0625H15.0826ZM7.8125 16.125H37.1868L39.1754 20.8281H7.8125V16.125ZM45.2365 23.5156L41.0423 34.9375H4.6875V23.5156H45.2365Z" fill="white"/>
+                            <path d="M7.8125 26.875H10.9375V29.5625H7.8125V26.875ZM14.0625 26.875H17.1875V29.5625H14.0625V26.875ZM20.3125 26.875H23.4375V29.5625H20.3125V26.875ZM26.5625 26.875H29.6875V29.5625H26.5625V26.875ZM32.8125 26.875H35.9375V29.5625H32.8125V26.875Z" fill="white"/>
+                          </svg>
+                    </div>
+                    <div class="VSSE__leftmenu-title">
+                        Indochina
+                    </div>
+                </div>
+                <div class="VSSE__leftmenu-options d-flex align-item-center">
+                  <button class=" w3-button w3-large VSSE__leftmenu-header-button" onclick="w3_close()">
+                    <svg class="VSSE__leftmenu-header-icon" xmlns="http://www.w3.org/2000/svg" width="42" height="43" viewBox="0 0 42 43" fill="none">
+                      <path d="M5.25 32.25H36.75V28.6667H5.25V32.25ZM5.25 23.2917H36.75V19.7083H5.25V23.2917ZM5.25 10.75V14.3333H36.75V10.75H5.25Z" fill="#CCCCCC"/>
+                    </svg>
+                  </button>
+                    
+                </div>
+            </div>
+            <!-- End header leftmenu  -->
+            <div class="VSSE__leftmenu-controls">
+              <!-- Dashbroad -->
+              <div class="VSSE__leftmenu-item-container">
+                  <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                      <div class="d-flex align-item-center justify-space-bw width-100">
+                          <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                              <svg class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
+                                  <path d="M20.0417 13.875V4.625H32.375V13.875H20.0417ZM4.625 20.0417V4.625H16.9583V20.0417H4.625ZM20.0417 32.375V16.9583H32.375V32.375H20.0417ZM4.625 32.375V23.125H16.9583V32.375H4.625Z" fill="#9D9DA6"/>
+                              </svg>
+                          </div>
+                          <div class="VSSE__leftmenu-btn-container width-100 ">
+                              <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="">
+                                <h4 class="VSSE__leftmenu-name-option">Dashboard</h4> 
+                                <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                      <g clip-path="url(#clip0_1788_2983)">
+                                        <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_1788_2983">
+                                          <rect width="15" height="15" fill="white"/>
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                              </div>
+                              </button>
+                          </div>
+                      </div>           
+                  </div>
+              
+                <div id="" class="w3-hide ">
+                  <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                    <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                            <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                          </svg>
+                          <h5 class="VSSE__leftmenu-navbar-text button-click">
+                              Danh sách
+                          </h5>
+                    </div>                   
+                  </a>
+                  <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                    <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                            <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                          </svg>
+                          <h5 class="VSSE__leftmenu-navbar-text">
+                            Phân quyền
+                          </h5>
+                    </div>  
+                  </a>
+                </div>
+              </div>
+            <!-- End left menu items -->
+      
+            <!-- Quản lý tài khoản -->
+            <div class="VSSE__leftmenu-item-container">
+                <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                    <div class="d-flex align-item-center justify-space-bw width-100">
+                        <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                          <svg class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="37" height="39" viewBox="0 0 37 39" fill="none">
+                            <path d="M9.2673 22.5165C9.27122 22.599 9.25917 22.6815 9.23187 22.759C9.20458 22.8365 9.16262 22.9073 9.10854 22.9672C9.05446 23.027 8.98939 23.0747 8.9173 23.1072C8.8452 23.1397 8.76759 23.1564 8.68917 23.1563H2.31245C2.05148 23.1567 1.79805 23.0641 1.59337 22.8934C1.3887 22.7227 1.24481 22.4841 1.18511 22.2163C1.14794 22.033 1.14965 21.8434 1.19013 21.6609C1.23061 21.4783 1.30885 21.3075 1.41925 21.1606C2.43937 19.7346 3.79287 18.6119 5.34761 17.902C4.66503 17.246 4.14151 16.4271 3.82089 15.514C3.50028 14.6009 3.39191 13.6201 3.50486 12.6538C3.61781 11.6875 3.94878 10.7637 4.47007 9.95995C4.99136 9.15618 5.68779 8.49576 6.50101 8.03402C7.31424 7.57228 8.2206 7.32266 9.14417 7.30606C10.0677 7.28946 10.9816 7.50637 11.8093 7.93862C12.637 8.37087 13.3544 9.00588 13.9014 9.79046C14.4484 10.575 14.809 11.4863 14.9532 12.4481C14.9718 12.5774 14.9498 12.7096 14.8906 12.8245C14.8313 12.9395 14.7381 13.0309 14.6251 13.0849C13.0213 13.8663 11.6631 15.115 10.7107 16.6836C9.75834 18.2522 9.25147 20.0752 9.24996 21.9375C9.24996 22.1325 9.24996 22.3245 9.2673 22.5165ZM35.572 21.1591C34.5542 19.7348 33.2038 18.6126 31.6523 17.902C32.3349 17.246 32.8584 16.4271 33.179 15.514C33.4996 14.6009 33.608 13.6201 33.4951 12.6538C33.3821 11.6875 33.0511 10.7637 32.5298 9.95995C32.0085 9.15618 31.3121 8.49576 30.4989 8.03402C29.6857 7.57228 28.7793 7.32266 27.8557 7.30606C26.9322 7.28946 26.0183 7.50637 25.1906 7.93862C24.3629 8.37087 23.6455 9.00588 23.0985 9.79046C22.5515 10.575 22.1909 11.4863 22.0468 12.4481C22.0281 12.5774 22.0501 12.7096 22.1093 12.8245C22.1686 12.9395 22.2618 13.0309 22.3748 13.0849C23.9786 13.8663 25.3368 15.115 26.2892 16.6836C27.2416 18.2522 27.7484 20.0752 27.75 21.9375C27.75 22.1325 27.75 22.3245 27.7326 22.5165C27.7287 22.599 27.7407 22.6815 27.768 22.759C27.7953 22.8365 27.8373 22.9073 27.8914 22.9672C27.9454 23.027 28.0105 23.0747 28.0826 23.1072C28.1547 23.1397 28.2323 23.1564 28.3107 23.1563H34.6875C34.9484 23.1567 35.2019 23.0641 35.4065 22.8934C35.6112 22.7227 35.7551 22.4841 35.8148 22.2163C35.8522 22.0327 35.8505 21.8426 35.8097 21.6598C35.769 21.477 35.6903 21.3059 35.5792 21.1591H35.572ZM22.7087 27.7373C23.86 26.8079 24.706 25.5217 25.1279 24.0593C25.5498 22.597 25.5264 21.032 25.0609 19.5844C24.5954 18.1368 23.7113 16.8794 22.5328 15.9888C21.3543 15.0982 19.9407 14.6192 18.4906 14.6192C17.0405 14.6192 15.6268 15.0982 14.4483 15.9888C13.2698 16.8794 12.3857 18.1368 11.9202 19.5844C11.4547 21.032 11.4313 22.597 11.8532 24.0593C12.2751 25.5217 13.1212 26.8079 14.2724 27.7373C12.2295 28.6703 10.5237 30.2681 9.4046 32.2969C9.30311 32.4822 9.24968 32.6924 9.24969 32.9064C9.24971 33.1203 9.30316 33.3305 9.40467 33.5158C9.50618 33.7011 9.65218 33.8549 9.82799 33.9619C10.0038 34.0688 10.2032 34.1251 10.4062 34.125H26.5937C26.7967 34.1251 26.9961 34.0688 27.1719 33.9619C27.3477 33.8549 27.4937 33.7011 27.5952 33.5158C27.6968 33.3305 27.7502 33.1203 27.7502 32.9064C27.7502 32.6924 27.6968 32.4822 27.5953 32.2969C26.4738 30.2668 24.7648 28.6688 22.7188 27.7373H22.7087Z" fill="#9D9DA6"/>
+                          </svg>
+                        </div>
+                        <div class="VSSE__leftmenu-btn-container width-100 ">
+                            <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="myAccFunc()">
+                              <h4 class="VSSE__leftmenu-name-option">Quản lí tài khoản</h4> 
+                              <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                    <g clip-path="url(#clip0_1788_2983)">
+                                      <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1788_2983">
+                                        <rect width="15" height="15" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </div>
+                            </button>
+                        </div>
+                    </div>           
+                </div>
+            
+              <div id="demoAcc" class="w3-hide ">
+                <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                  <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                          <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                        </svg>
+                        <h5 class="VSSE__leftmenu-subnav-text button-click">
+                            Danh sách
+                        </h5>
+                  </div>                   
+                </a>
+                <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                  <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                          <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                        </svg>
+                        <h5 class="VSSE__leftmenu-subnav-text">
+                          Phân quyền
+                        </h5>
+                  </div>  
+                </a>
+              </div>
+            </div>
+                  <!-- End left menu items -->
+                 
+                  <!-- Quản lý thực đơn -->
+                  <div class="VSSE__leftmenu-item-container">
+                      <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                        <div class="d-flex align-item-center justify-space-bw width-100">
+                            <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                              <svg  class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                                <path d="M30.4601 3.82812L30.4583 30.1022C30.9287 30.8762 31.4154 31.1739 31.8235 31.1719C32.2284 31.17 32.7099 30.8688 33.1711 30.1179L31.9115 16.6981L31.8968 16.5347L31.9976 16.4044C33.4451 14.5471 33.9509 11.3384 33.538 8.62442C33.3315 7.26735 32.8994 6.03907 32.2942 5.17077C31.7867 4.44261 31.1813 3.97811 30.4602 3.82812H30.4601ZM5.00478 3.8284L5.00368 8.41716L4.14509 8.41606V3.82867H3.16721L3.16734 8.41627H2.30752V3.82867H1.31152V10.8853C1.31146 11.6657 1.7374 12.0985 2.40801 12.3661L2.68555 12.477L2.67939 12.7757C2.54268 18.5568 2.40753 24.3379 2.27184 30.119C2.73941 30.8841 3.21971 31.1738 3.61961 31.1719C4.01951 31.17 4.49939 30.8727 4.96103 30.117C4.80277 24.3374 4.64452 18.5577 4.48654 12.778L4.47834 12.4772L4.75677 12.3674C5.46251 12.0868 5.92154 11.6104 5.92154 10.8857V3.8284H5.00478ZM17.5 6.49414C14.581 6.49414 11.7817 7.65368 9.71766 9.71768C7.65366 11.7817 6.49412 14.5811 6.49412 17.5C6.49412 20.4189 7.65366 23.2183 9.71766 25.2823C11.7817 27.3463 14.581 28.5059 17.5 28.5059C20.4189 28.5059 23.2183 27.3463 25.2823 25.2823C27.3463 23.2183 28.5058 20.4189 28.5058 17.5C28.5058 14.5811 27.3463 11.7817 25.2823 9.71768C23.2183 7.65368 20.4189 6.49414 17.5 6.49414Z" fill="#9D9DA6"/>
+                              </svg>
+                            </div>
+                            <div class="VSSE__leftmenu-btn-container width-100 ">
+                                <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="">
+                                  <h4 class="VSSE__leftmenu-name-option">Quản lý thực đơn</h4> 
+                                  <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                        <g clip-path="url(#clip0_1788_2983)">
+                                          <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </g>
+                                        <defs>
+                                          <clipPath id="clip0_1788_2983">
+                                            <rect width="15" height="15" fill="white"/>
+                                          </clipPath>
+                                        </defs>
+                                      </svg>
+                                </div>
+                                </button>
+                            </div>
+                        </div>           
+                    </div>
+                
+                    <div id="demoAcc" class="w3-hide ">
+                      <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                        <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                                <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                              </svg>
+                              <h5 class="VSSE__leftmenu-subnav-text button-click">
+                                  Danh sách
+                              </h5>
+                        </div>                   
+                      </a>
+                      <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                        <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                                <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                              </svg>
+                              <h5 class="VSSE__leftmenu-subnav-text">
+                                Phân quyền
+                              </h5>
+                        </div>  
+                      </a>
+                    </div>
+                  </div>
+                <!-- End left menu items -->
+      
+                <!-- Quản lý chỗ ngồi -->
+                <div class="VSSE__leftmenu-item-container">
+                  <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                    <div class="d-flex align-item-center justify-space-bw width-100">
+                        <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                          <svg class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                            <path d="M21.875 29.1668H11.6667C10.8646 29.1668 10.1777 28.8809 9.60604 28.3093C9.03438 27.7376 8.74903 27.0512 8.75 26.2501V10.2084H11.6667V26.2501H21.875V29.1668ZM16.7708 8.75008C15.9688 8.75008 15.2819 8.46425 14.7102 7.89258C14.1385 7.32092 13.8532 6.63453 13.8542 5.83342C13.8542 5.03133 14.14 4.34446 14.7117 3.77279C15.2833 3.20113 15.9697 2.91578 16.7708 2.91675C17.5729 2.91675 18.2598 3.20258 18.8315 3.77425C19.4031 4.34592 19.6885 5.03231 19.6875 5.83342C19.6875 6.6355 19.4017 7.32238 18.83 7.89404C18.2583 8.46571 17.5719 8.75106 16.7708 8.75008ZM23.3333 32.0834V24.7918H16.0417C15.2396 24.7918 14.5527 24.5059 13.981 23.9343C13.4094 23.3626 13.124 22.6762 13.125 21.8751V13.8543C13.125 12.8334 13.4774 11.9706 14.1823 11.2657C14.8872 10.5608 15.75 10.2084 16.7708 10.2084C17.7917 10.2084 18.6545 10.5608 19.3594 11.2657C20.0642 11.9706 20.4167 12.8334 20.4167 13.8543V20.4168H23.3333C24.1354 20.4168 24.8223 20.7026 25.394 21.2743C25.9656 21.8459 26.251 22.5323 26.25 23.3334V32.0834H23.3333Z" fill="#9D9DA6"/>
+                          </svg>
+                        </div>
+                        <div class="VSSE__leftmenu-btn-container width-100 ">
+                            <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="">
+                              <h4 class="VSSE__leftmenu-name-option">Quản lý chỗ ngồi</h4> 
+                              <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                    <g clip-path="url(#clip0_1788_2983)">
+                                      <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1788_2983">
+                                        <rect width="15" height="15" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </div>
+                            </button>
+                        </div>
+                    </div>           
+                </div>
+            
+                  <div id="demoAcc" class="w3-hide ">
+                    <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                      <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                              <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                            </svg>
+                            <h5 class="VSSE__leftmenu-subnav-text button-click">
+                                Danh sách
+                            </h5>
+                      </div>                   
+                    </a>
+                    <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                      <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                              <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                            </svg>
+                            <h5 class="VSSE__leftmenu-subnav-text">
+                              Phân quyền
+                            </h5>
+                      </div>  
+                    </a>
+                  </div>
+                </div>
+                <!-- End left menu items -->
+      
+                <!-- Quản lý khách hàng -->
+                <div class="VSSE__leftmenu-item-container">
+                    <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                      <div class="d-flex align-item-center justify-space-bw width-100">
+                          <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                            <svg class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                              <path d="M17.5 11.25C16.3397 11.25 15.2269 11.7109 14.4064 12.5314C13.5859 13.3519 13.125 14.4647 13.125 15.625C13.125 16.7853 13.5859 17.8981 14.4064 18.7186C15.2269 19.5391 16.3397 20 17.5 20C18.6603 20 19.7731 19.5391 20.5936 18.7186C21.4141 17.8981 21.875 16.7853 21.875 15.625C21.875 14.4647 21.4141 13.3519 20.5936 12.5314C19.7731 11.7109 18.6603 11.25 17.5 11.25ZM13.375 21.25C12.3 21.25 11.13 22.0025 11.1 23.34C11.0775 24.2763 11.245 25.6562 12.2175 26.81C13.2125 27.9912 14.8925 28.75 17.5 28.75C20.1075 28.75 21.7875 27.9912 22.7825 26.81C23.755 25.6562 23.9225 24.2763 23.9013 23.34C23.87 22.0025 22.7 21.25 21.625 21.25H13.375ZM23.6213 5H25.3125C26.2242 5 27.0985 5.36216 27.7432 6.00682C28.3878 6.65148 28.75 7.52582 28.75 8.4375V29.0625C28.75 29.9742 28.3878 30.8485 27.7432 31.4932C27.0985 32.1378 26.2242 32.5 25.3125 32.5H9.6875C8.77582 32.5 7.90148 32.1378 7.25682 31.4932C6.61216 30.8485 6.25 29.9742 6.25 29.0625V8.4375C6.25 7.52582 6.61216 6.65148 7.25682 6.00682C7.90148 5.36216 8.77582 5 9.6875 5H11.38C11.5843 4.2802 12.0177 3.64665 12.6146 3.19548C13.2115 2.74431 13.9393 2.50014 14.6875 2.5H20.3125C21.0608 2.49993 21.7886 2.74403 22.3856 3.19523C22.9825 3.64643 23.4172 4.28009 23.6213 5ZM11.38 6.875H9.6875C8.825 6.875 8.125 7.575 8.125 8.4375V29.0625C8.125 29.925 8.825 30.625 9.6875 30.625H25.3125C26.175 30.625 26.875 29.925 26.875 29.0625V8.4375C26.875 7.575 26.175 6.875 25.3125 6.875H23.62C23.4157 7.5948 22.9823 8.22835 22.3854 8.67952C21.7885 9.13069 21.0607 9.37486 20.3125 9.375H14.6875C13.9393 9.37486 13.2115 9.13069 12.6146 8.67952C12.0177 8.22835 11.5843 7.5948 11.38 6.875ZM13.125 5.9375C13.125 6.8 13.825 7.5 14.6875 7.5H20.3125C20.7269 7.5 21.1243 7.33538 21.4174 7.04235C21.7104 6.74933 21.875 6.3519 21.875 5.9375C21.875 5.5231 21.7104 5.12567 21.4174 4.83265C21.1243 4.53962 20.7269 4.375 20.3125 4.375H14.6875C13.825 4.375 13.125 5.075 13.125 5.9375Z" fill="#9D9DA6"/>
+                            </svg>
+                          </div>
+                          <div class="VSSE__leftmenu-btn-container width-100 ">
+                              <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="">
+                                <h4 class="VSSE__leftmenu-name-option">Quản lý khách hàng</h4> 
+                                <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                      <g clip-path="url(#clip0_1788_2983)">
+                                        <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                      </g>
+                                      <defs>
+                                        <clipPath id="clip0_1788_2983">
+                                          <rect width="15" height="15" fill="white"/>
+                                        </clipPath>
+                                      </defs>
+                                    </svg>
+                              </div>
+                              </button>
+                          </div>
+                      </div>           
+                  </div>
+          
+                  <div id="demoAcc" class="w3-hide ">
+                    <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                      <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                              <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                            </svg>
+                            <h5 class="VSSE__leftmenu-subnav-text button-click">
+                                Danh sách
+                            </h5>
+                      </div>                   
+                    </a>
+                    <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                      <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                              <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                            </svg>
+                            <h5 class="VSSE__leftmenu-subnav-text">
+                              Phân quyền
+                            </h5>
+                      </div>  
+                    </a>
+                  </div>
+                </div>
+              <!-- End left menu items -->
+      
+                <!-- Quản lý thanh toán -->
+                <div class="VSSE__leftmenu-item-container">
+                  <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                    <div class="d-flex align-item-center justify-space-bw width-100">
+                        <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                          <svg class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                            <path d="M7.65625 6.5625C6.20585 6.5625 4.81485 7.13867 3.78926 8.16426C2.76367 9.18985 2.1875 10.5808 2.1875 12.0312V13.125H32.8125V12.0312C32.8125 10.5808 32.2363 9.18985 31.2107 8.16426C30.1852 7.13867 28.7942 6.5625 27.3438 6.5625H7.65625ZM32.8125 15.3125H2.1875V22.9688C2.1875 24.4192 2.76367 25.8102 3.78926 26.8357C4.81485 27.8613 6.20585 28.4375 7.65625 28.4375H27.3438C28.7942 28.4375 30.1852 27.8613 31.2107 26.8357C32.2363 25.8102 32.8125 24.4192 32.8125 22.9688V15.3125ZM22.9688 21.875H27.3438C27.6338 21.875 27.912 21.9902 28.1171 22.1954C28.3223 22.4005 28.4375 22.6787 28.4375 22.9688C28.4375 23.2588 28.3223 23.537 28.1171 23.7421C27.912 23.9473 27.6338 24.0625 27.3438 24.0625H22.9688C22.6787 24.0625 22.4005 23.9473 22.1954 23.7421C21.9902 23.537 21.875 23.2588 21.875 22.9688C21.875 22.6787 21.9902 22.4005 22.1954 22.1954C22.4005 21.9902 22.6787 21.875 22.9688 21.875Z" fill="#9D9DA6"/>
+                          </svg>
+                        </div>
+                        <div class="VSSE__leftmenu-btn-container width-100 ">
+                            <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="">
+                              <h4 class="VSSE__leftmenu-name-option">Quản lý thanh toán</h4> 
+                              <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                    <g clip-path="url(#clip0_1788_2983)">
+                                      <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1788_2983">
+                                        <rect width="15" height="15" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </div>
+                            </button>
+                        </div>
+                    </div>           
+                  </div>
+        
+                  <div id="demoAcc" class="w3-hide ">
+                  <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                  <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                          <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                        </svg>
+                        <h5 class="VSSE__leftmenu-subnav-text button-click">
+                            Danh sách
+                        </h5>
+                  </div>                   
+                  </a>
+                  <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                  <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                          <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                        </svg>
+                        <h5 class="VSSE__leftmenu-subnav-text">
+                          Phân quyền
+                        </h5>
+                  </div>  
+                  </a>
+                  </div>
+                </div>
+                <!-- End left menu items -->
+      
+                <!-- Báo cáo -->
+                
+                <div class="VSSE__leftmenu-item-container">
+                  <div class="VSSE__leftmenu-item d-flex align-item-center justify-space-bw ">
+                    <div class="d-flex align-item-center justify-space-bw width-100 ">
+                        <div class="VSSE__leftmenu-icon-container d-flex align-item-center">
+                          <svg class="VSSE__leftmenu-icon" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+                            <path d="M18.9583 4.375L27.7083 13.125V30.625H7.29163V4.375H18.9583Z" stroke="#9D9DA6" stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M18.2291 4.375V12.3958H27.7083" stroke="#9D9DA6" stroke-width="1.45833" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M13.125 24.7917V20.4167" stroke="#9D9DA6" stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17.5 24.7916V18.9583" stroke="#9D9DA6" stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21.875 24.7917V17.5" stroke="#9D9DA6" stroke-width="2.91667" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </div>
+                        <div class="VSSE__leftmenu-btn-container width-100 ">
+                            <button class="w3-button w3-block w3-left-align d-flex align-item-center justify-space-bw VSSE__leftmenu-btn" onclick="reportFunc()">
+                              <h4 class="VSSE__leftmenu-name-option">Báo cáo</h4> 
+                              <div class="VSSE__leftmenu-icon-drop d-flex align-item-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                                    <g clip-path="url(#clip0_1788_2983)">
+                                      <path d="M0.535767 4.125L7.12505 10.7143C7.17315 10.7655 7.23124 10.8064 7.29574 10.8343C7.36023 10.8622 7.42977 10.8766 7.50005 10.8766C7.57033 10.8766 7.63987 10.8622 7.70437 10.8343C7.76887 10.8064 7.82696 10.7655 7.87505 10.7143L14.4643 4.125" stroke="#9D9DA6" stroke-width="1.42857" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </g>
+                                    <defs>
+                                      <clipPath id="clip0_1788_2983">
+                                        <rect width="15" height="15" fill="white"/>
+                                      </clipPath>
+                                    </defs>
+                                  </svg>
+                            </div>
+                            </button>
+                        </div>
+                    </div>           
+                  </div>
+        
+                  <div id="report" class="w3-hide ">
+                    <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                    <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                            <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                          </svg>
+                          <h5 class="VSSE__leftmenu-subnav-text button-click">
+                            Báo cáo doanh thu
+                          </h5>
+                    </div>                   
+                    </a>
+                    <a href="#" class="w3-bar-item w3-button VSSE__leftmenu-nav-link">
+                    <div class="sidebar-dropdow-item-container d-flex align-item-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="37" height="34" viewBox="0 0 37 34" fill="none">
+                            <path d="M18.5 15.4167C17.6822 15.4167 16.898 15.7416 16.3197 16.3198C15.7415 16.8981 15.4166 17.6823 15.4166 18.5001C15.4166 19.3178 15.7415 20.1021 16.3197 20.6803C16.898 21.2586 17.6822 21.5834 18.5 21.5834C20.2112 21.5834 21.5833 20.2113 21.5833 18.5001C21.5833 17.6823 21.2584 16.8981 20.6802 16.3198C20.102 15.7416 19.3177 15.4167 18.5 15.4167Z" fill="white"/>
+                          </svg>
+                          <h5 class="VSSE__leftmenu-subnav-text">
+                            Báo cáo khác
+                          </h5>
+                    </div>  
+                    </a>
+                  </div>
+                </div>
+                <!-- End left menu items -->
+            </div>
+        </div>
+        <div id ="header" class="width-100" style="margin-left:22%">
+          <div w3-include-html="header.html"></div>
+        </div>
+    </div>
+
+
+
+
+</body>
+<script src="./assets/js/main.js">
+</script>
+</html>

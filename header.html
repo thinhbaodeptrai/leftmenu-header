@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css ">
+    <link rel="stylesheet" href="./assets/css/userlist.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="VSSE__header ">
+        <div class="VSSE__header-container d-flex align-item-center justify-space-bw">
+            
+            <div class="VSSE__header-container-title d-flex align-item-center">
+                <button  class="w3-button  VSSE__header-showmenu-btn" onclick="w3_open()">
+                    <svg id="showmenu" class="VSSE__header-show-menu-icon" xmlns="http://www.w3.org/2000/svg" width="42" height="43" viewBox="0 0 42 43" fill="none">
+                        <path d="M5.25 32.25H36.75V28.6667H5.25V32.25ZM5.25 23.2917H36.75V19.7083H5.25V23.2917ZM5.25 10.75V14.3333H36.75V10.75H5.25Z" fill="#1E1E2D"/>
+                    </svg>
+                </button>
+                <h1 class="VSSE__header-title">Quản lí tài khoản</h1>
+            </div>
+            <div class="VSSE__header-infomation d-flex align-item-center">
+                <div class="VSSE__header-notification d-flex align-item-center">
+                        <svg class="VSSE_header-notification-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M35.0001 11.1094C34.7059 11.2618 34.3632 11.2911 34.0473 11.1909C33.7315 11.0907 33.4683 10.8692 33.3157 10.575C32.1226 8.21799 30.3166 6.22581 28.0876 4.80784C27.9487 4.72023 27.8284 4.60611 27.7336 4.472C27.6388 4.33789 27.5713 4.18643 27.535 4.02625C27.4988 3.86606 27.4944 3.70031 27.5222 3.53844C27.55 3.37657 27.6094 3.22176 27.697 3.08284C27.7846 2.94393 27.8987 2.82363 28.0328 2.72882C28.1669 2.63401 28.3184 2.56655 28.4786 2.53027C28.6388 2.494 28.8045 2.48963 28.9664 2.51742C29.1283 2.54521 29.2831 2.6046 29.422 2.69222C32.0198 4.35556 34.1292 6.67904 35.5345 9.42503C35.6869 9.71928 35.7162 10.062 35.616 10.3778C35.5158 10.6937 35.2942 10.9568 35.0001 11.1094ZM5.5798 11.25C5.8088 11.2499 6.03338 11.1869 6.22902 11.0679C6.42465 10.9489 6.58383 10.7784 6.68917 10.575C7.8823 8.21799 9.68827 6.22581 11.9173 4.80784C12.0562 4.72023 12.1765 4.60611 12.2713 4.472C12.3661 4.33789 12.4336 4.18643 12.4699 4.02625C12.5061 3.86606 12.5105 3.70031 12.4827 3.53844C12.4549 3.37657 12.3955 3.22176 12.3079 3.08284C12.2203 2.94393 12.1062 2.82363 11.9721 2.72882C11.838 2.63401 11.6865 2.56655 11.5263 2.53027C11.3661 2.494 11.2004 2.48963 11.0385 2.51742C10.8766 2.54521 10.7218 2.6046 10.5829 2.69222C7.98512 4.35556 5.8757 6.67904 4.47042 9.42503C4.37173 9.61553 4.32373 9.82823 4.33105 10.0426C4.33836 10.2571 4.40074 10.466 4.51219 10.6493C4.62363 10.8327 4.78038 10.9842 4.96736 11.0894C5.15434 11.1946 5.36525 11.2499 5.5798 11.25ZM34.6579 27.4907C34.8794 27.8704 34.9968 28.3018 34.9983 28.7415C34.9998 29.1811 34.8854 29.6133 34.6665 29.9945C34.4477 30.3758 34.1322 30.6926 33.7518 30.9131C33.3715 31.1335 32.9397 31.2497 32.5001 31.25H26.1251C25.8382 32.6629 25.0717 33.9331 23.9554 34.8455C22.8392 35.7579 21.4418 36.2563 20.0001 36.2563C18.5584 36.2563 17.1611 35.7579 16.0448 34.8455C14.9285 33.9331 14.162 32.6629 13.8751 31.25H7.50011C7.06077 31.2492 6.62941 31.1325 6.2495 30.9119C5.86958 30.6912 5.55452 30.3744 5.33605 29.9932C5.11758 29.612 5.00342 29.18 5.00506 28.7407C5.00671 28.3013 5.1241 27.8702 5.34542 27.4907C6.75324 25.061 7.50011 21.6063 7.50011 17.5C7.50011 14.1848 8.81707 11.0054 11.1613 8.6612C13.5055 6.31699 16.6849 5.00003 20.0001 5.00003C23.3153 5.00003 26.4947 6.31699 28.8389 8.6612C31.1832 11.0054 32.5001 14.1848 32.5001 17.5C32.5001 21.6047 33.247 25.0594 34.6579 27.4907ZM23.5345 31.25H16.4657C16.7247 31.9804 17.2036 32.6125 17.8365 33.0596C18.4694 33.5067 19.2252 33.7468 20.0001 33.7468C20.775 33.7468 21.5309 33.5067 22.1638 33.0596C22.7967 32.6125 23.2755 31.9804 23.5345 31.25Z" fill="#CCCCCC"/>
+                        </svg>
+                </div>
+                <div class="VSSE__header-avatar d-flex align-item-center">
+                    <img src="./assets/imgs/avatar.png" alt="" class="VSSE__header-avatar-image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/js/main.js"></script>
+</html>
+
+

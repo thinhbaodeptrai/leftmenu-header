@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --font-primary: Montserrat;
+}
+.color-while {
+    color: #FFF;
+}
+.justify-space-bw {
+    justify-content: space-between;
+}
+.align-item-center {
+    align-items: center;
+}
+.d-flex {
+    display: flex;
+}
+.width-50 {
+    width: 50% !important;
+}
+.width-60 {
+    width: 60%;
+}
+.width-100 {
+    width: 100% !important;
+}
+.heigh-100 {
+    height: 100vh !important;
+}
+.t-center {
+    text-align: center !important;
+}
+.width-100vw {
+    width: 100vw;
+}
+
+/* Header  */
+
+
+.VSSE__header-title {
+    /* font-family:'Montserrat', sans-serif; */
+    font-family: var(--font-primary);
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.VSSE__header-showmenu-btn {
+    padding: 0;
+    display: flex;
+    /* margin-right: 20px; */
+} 
+.VSSE__header-show-menu-icon {
+    display: none;
+}
+.VSSE_header-notification-icon {
+    width: 30px;
+}
+.VSSE__header-avatar-image {
+    width: 40px;
+    margin-left: 40px;
+}
+.VSSE-header-title {
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    line-height: 130%; /* 52px */
+    margin-left: 20px;
+}
+.VSSE__header-container {
+    padding: 10px 30px;
+}
+
+/* Search  */
+
+.VSSE__body-search-container {
+    position: relative;
+}
+.VSSE__body-search-icon-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* margin-left: 20px; */
+}
+.VSSE__body-search-icon {
+    margin-left: 15px;
+}
+.VSSE__body-input {
+    padding: 17px 50px 17px 50px;
+    border-radius: 12px;
+    background: #F5F5F5;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-family: var(--font-primary);
+}
+.VSSE__body-input:-ms-input-placeholder { 
+    color: #CCC;
+    font-family: var(--font-primary);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}	  
+.VSSE__body-input::-ms-input-placeholder { 
+    color: #CCC;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+.VSSE__body-input::placeholder { 
+    color: #CCC;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
+/* Body title  */
+
+.VSSE__body-title {
+    padding: 30px 0;
+}
+.VSSE__body-title-text {
+    color: #000;
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+/* Table CSS  */
+
+table {
+    font-family: var(--font-primary);
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+      border: 1px solid #ECECEC;
+      text-align: center;
+  }
+  
+  tr:nth-child(even) {
+      background-color: #ECECEC;
+      border-left: 1px solid #777777;
+  }
+  th {
+    padding: 18px 5px;
+  }
+
+  td {
+    padding: 20px 15px;
+  }
+
+
+  /* CSS chuyển trang */
+
+.VSSE__next-page-container {
+    padding: 30px 20px;
+}
+.VSSE__select-number-of-acc {
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    color: #666;
+} 
+.VSSE__select-number-of-acc {
+    padding: 10px 40px 10px 20px;
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    
+    /* margin-left: 10px; */
+}
+.VSSE__select-num-acc-container {
+    border-radius: 8px;
+    background: url('../imgs/Chevron.jpg') no-repeat 80% #fff;
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.10);
+    margin: auto;
+}
+.VSSE-page-number,
+.VSSE-number-of-acc-text {
+    color: #333;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.VSSE-number-of-acc-text {
+    margin-right: 10px;
+}
+
+.VSSE-page-number {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.VSSE-next-page-item {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #DDD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.VSSE-next-page-item:not(:first-child) {
+    margin-left: 5px;
+}
